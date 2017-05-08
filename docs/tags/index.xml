@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Beautiful Hugo</title>
+    <title>Tags on fcu-Ansible</title>
     <link>https://delaballe.github.io/fcu-ansible-examples/tags/</link>
-    <description>Recent content in Tags on Beautiful Hugo</description>
+    <description>Recent content in Tags on fcu-Ansible</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <managingEditor>cyril.gratecos@gmail.com (Cyril Gratecos)</managingEditor>
+    <webMaster>cyril.gratecos@gmail.com (Cyril Gratecos)</webMaster>
     <lastBuildDate>Tue, 07 Mar 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://delaballe.github.io/fcu-ansible-examples/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Bigimg</title>
       <link>https://delaballe.github.io/fcu-ansible-examples/tags/bigimg/</link>
       <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      <author>cyril.gratecos@gmail.com (Cyril Gratecos)</author>
       <guid>https://delaballe.github.io/fcu-ansible-examples/tags/bigimg/</guid>
       <description></description>
     </item>
@@ -25,7 +25,7 @@
       <title>Code</title>
       <link>https://delaballe.github.io/fcu-ansible-examples/tags/code/</link>
       <pubDate>Tue, 08 Mar 2016 00:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      <author>cyril.gratecos@gmail.com (Cyril Gratecos)</author>
       <guid>https://delaballe.github.io/fcu-ansible-examples/tags/code/</guid>
       <description></description>
     </item>
@@ -34,7 +34,7 @@
       <title>Example</title>
       <link>https://delaballe.github.io/fcu-ansible-examples/tags/example/</link>
       <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      <author>cyril.gratecos@gmail.com (Cyril Gratecos)</author>
       <guid>https://delaballe.github.io/fcu-ansible-examples/tags/example/</guid>
       <description></description>
     </item>
@@ -43,7 +43,7 @@
       <title>Markdown</title>
       <link>https://delaballe.github.io/fcu-ansible-examples/tags/markdown/</link>
       <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      <author>cyril.gratecos@gmail.com (Cyril Gratecos)</author>
       <guid>https://delaballe.github.io/fcu-ansible-examples/tags/markdown/</guid>
       <description></description>
     </item>
@@ -52,7 +52,7 @@
       <title>Math</title>
       <link>https://delaballe.github.io/fcu-ansible-examples/tags/math/</link>
       <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      <author>cyril.gratecos@gmail.com (Cyril Gratecos)</author>
       <guid>https://delaballe.github.io/fcu-ansible-examples/tags/math/</guid>
       <description></description>
     </item>
@@ -61,7 +61,7 @@
       <title>Photoswipe</title>
       <link>https://delaballe.github.io/fcu-ansible-examples/tags/photoswipe/</link>
       <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      <author>cyril.gratecos@gmail.com (Cyril Gratecos)</author>
       <guid>https://delaballe.github.io/fcu-ansible-examples/tags/photoswipe/</guid>
       <description></description>
     </item>
