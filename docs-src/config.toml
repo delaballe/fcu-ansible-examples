@@ -1,4 +1,4 @@
-baseurl = "https://username.github.io"
+baseurl = "https://delaballe.github.io/fcu-ansible-examples/"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
 title = "Beautiful Hugo"
