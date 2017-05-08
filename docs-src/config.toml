@@ -1,3 +1,10 @@
+# @Author: cyril.gratecos.ext
+# @Date:   2017-05-08T22:16:31+02:00
+# @Last modified by:   cyril.gratecos.ext
+# @Last modified time: 2017-05-08T23:30:44+02:00
+
+
+
 baseurl = "https://delaballe.github.io/fcu-ansible-examples/"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
@@ -10,7 +17,7 @@ pygmentCodeFences = true
 #googleAnalytics = "XXX"
 
 [Params]
-  subtitle = "Examples for Ansible for the Outscale® Cloud Platform "
+  subtitle = "Provision & Deploy with Ansible on the Outscale® Cloud Platform"
   logo = "img/avatar-icon.png"
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
@@ -54,30 +61,24 @@ pygmentCodeFences = true
     weight = 1
 
 [[menu.main]]
-    name = "About"
-    url = "page/about/"
-    weight = 3
+    name = "Install"
+    url = "page/install"
+    weight = 1
 
 [[menu.main]]
-    identifier = "Examples"
-    name = "Samples"
-    weight = 2
-
-[[menu.main]]
-    parent = "samples"
+    parent = "examples"
     name = "Big Image Sample"
     url = "post/2017-03-07-bigimg-sample"
     weight = 1
 
 [[menu.main]]
-    parent = "samples"
+    parent = "examples"
     name = "Math Sample"
     url = "post/2017-03-05-math-sample"
     weight = 2
 
 [[menu.main]]
-    parent = "samples"
+    parent = "examples"
     name = "Code Sample"
     url = "post/2016-03-08-code-sample"
     weight = 3
-

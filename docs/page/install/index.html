@@ -5,20 +5,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Tags</title>
-  <meta property="og:title" content="Tags" />
-  <meta name="twitter:title" content="Tags" />
+  <title>Install</title>
+  <meta property="og:title" content="Install" />
+  <meta name="twitter:title" content="Install" />
+  <meta name="description" content="Install fcu-ansible">
+  <meta property="og:description" content="Install fcu-ansible">
+  <meta name="twitter:description" content="Install fcu-ansible">
   <meta name="author" content="Cyril Gratecos"/>
   <link href='https://delaballe.github.io/fcu-ansible-examples/img/favicon.ico' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="https://delaballe.github.io/fcu-ansible-examples/img/avatar-icon.png" />
   <meta name="twitter:image" content="https://delaballe.github.io/fcu-ansible-examples/img/avatar-icon.png" />
   <meta name="twitter:card" content="summary" />
-  <meta property="og:url" content="https://delaballe.github.io/fcu-ansible-examples/tags/" />
+  <meta property="og:url" content="https://delaballe.github.io/fcu-ansible-examples/page/install/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="fcu-Ansible" />
 
   <meta name="generator" content="Hugo 0.20.7" />
-  <link rel="canonical" href="https://delaballe.github.io/fcu-ansible-examples/tags/" />
+  <link rel="canonical" href="https://delaballe.github.io/fcu-ansible-examples/page/install/" />
   <link rel="alternate" href="https://delaballe.github.io/fcu-ansible-examples/index.xml" type="application/rss+xml" title="fcu-Ansible">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -117,7 +120,12 @@
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="page-heading">
-              <h1>Tags</h1>
+              <h1>Install</h1>
+                
+                  
+                    <hr class="small">
+                    <span class="page-subheading">Install fcu-ansible</span>
+                  
                 
                 
             </div>
@@ -129,32 +137,49 @@
 
 
     
-  
-  <div class="container" role="main">
-    <article class="post-preview">
-      <div class="list-group col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        
+
+<h2 id="dependencies">Dependencies</h2>
+
+<p>Please take care theses dependencies are installed in your system</p>
+
+<ul>
+<li>python &gt;= 2.7<br /></li>
+<li>virtualenv<br /></li>
+<li>pip<br /></li>
+</ul>
+
+<h2 id="install">Install</h2>
+
+<pre><code class="language-bash">git clone https://github.com/delaballe/fcu-ansible.git
+cd fcu-ansible
+virtualenv .
+. ./bin/activate
+pip install -r requirement-pip
+
+cat &lt;&lt;'EOF' &gt;&gt; config/outscale.ini
+[default]
+region = &lt;YOUR OUTSCALE API REGION&gt;
+aws_access_key_id = &lt;YOUR OUTSCALE API ACCESS KEY ID&gt;
+aws_secret_access_key =  &lt;YOUR OUTSCALE API ACCESS KEY&gt;
+EOF
+</code></pre>
+
+<p>And voilà !!! you&rsquo;re ready to play provision &amp; deploy in the Outscale Cloud Platform using Ansible.</p>
+
+      </article>
+
       
-      <a href="/tags/example" class="list-group-item">
-          example<span class="badge">5</span></a>
+        
       
-      <a href="/tags/bigimg" class="list-group-item">
-          bigimg<span class="badge">1</span></a>
-      
-      <a href="/tags/code" class="list-group-item">
-          code<span class="badge">1</span></a>
-      
-      <a href="/tags/markdown" class="list-group-item">
-          markdown<span class="badge">1</span></a>
-      
-      <a href="/tags/math" class="list-group-item">
-          math<span class="badge">1</span></a>
-      
-      <a href="/tags/photoswipe" class="list-group-item">
-          photoswipe<span class="badge">1</span></a>
-      
-      </div>
-    </article>
+
+    </div>
   </div>
+</div>
 
     <footer>
   <div class="container">

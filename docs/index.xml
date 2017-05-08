@@ -7,10 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>cyril.gratecos@gmail.com (Cyril Gratecos)</managingEditor>
     <webMaster>cyril.gratecos@gmail.com (Cyril Gratecos)</webMaster>
-    <lastBuildDate>Mon, 20 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 May 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://delaballe.github.io/fcu-ansible-examples/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Install</title>
+      <link>https://delaballe.github.io/fcu-ansible-examples/page/install/</link>
+      <pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate>
+      <author>cyril.gratecos@gmail.com (Cyril Gratecos)</author>
+      <guid>https://delaballe.github.io/fcu-ansible-examples/page/install/</guid>
+      <description>Dependencies Please take care theses dependencies are installed in your system
+ python &amp;gt;= 2.7
+ virtualenv
+ pip
+  Install git clone https://github.com/delaballe/fcu-ansible.git cd fcu-ansible virtualenv . . ./bin/activate pip install -r requirement-pip cat &amp;lt;&amp;lt;&#39;EOF&#39; &amp;gt;&amp;gt; config/outscale.ini [default] region = &amp;lt;YOUR OUTSCALE API REGION&amp;gt; aws_access_key_id = &amp;lt;YOUR OUTSCALE API ACCESS KEY ID&amp;gt; aws_secret_access_key = &amp;lt;YOUR OUTSCALE API ACCESS KEY&amp;gt; EOF  And voilà !!! you&amp;rsquo;re ready to play provision &amp;amp; deploy in the Outscale Cloud Platform using Ansible.</description>
+    </item>
     
     <item>
       <title>Photoswipe Gallery Sample</title>

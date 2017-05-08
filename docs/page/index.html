@@ -57,19 +57,13 @@
         
           
             <li>
-              <a title="Samples" href="/fcu-ansible-examples/">Samples</a>
-            </li>
-          
-        
-          
-            <li>
-              <a title="About" href="/fcu-ansible-examples/page/about/">About</a>
+              <a title="Install" href="/fcu-ansible-examples/page/install">Install</a>
             </li>
           
         
           
             <li class="navlinks-container">
-              <a class="navlinks-parent" href="javascript:void(0)">samples</a>
+              <a class="navlinks-parent" href="javascript:void(0)">examples</a>
               <div class="navlinks-children">
                 
                   <a href="/fcu-ansible-examples/post/2017-03-07-bigimg-sample">Big Image Sample</a>
@@ -129,16 +123,45 @@
         <div class="posts-list">
           
             <article class="post-preview">
+              <a href="https://delaballe.github.io/fcu-ansible-examples/page/install/">
+                <h2 class="post-title">Install</h2>
+
+                
+                  <h3 class="post-subtitle">
+                    Install fcu-ansible
+                  </h3>
+                
+              </a>
+
+              <p class="post-meta">
+                Posted on May 9, 2017
+              </p>
+              <div class="post-entry">
+                
+                  Dependencies Please take care theses dependencies are installed in your system
+ python &gt;= 2.7
+ virtualenv
+ pip
+  Install git clone https://github.com/delaballe/fcu-ansible.git cd fcu-ansible virtualenv . . ./bin/activate pip install -r requirement-pip cat &lt;&lt;'EOF' &gt;&gt; config/outscale.ini [default] region = &lt;YOUR OUTSCALE API REGION&gt; aws_access_key_id = &lt;YOUR OUTSCALE API ACCESS KEY ID&gt; aws_secret_access_key = &lt;YOUR OUTSCALE API ACCESS KEY&gt; EOF  And voilà !!! you&rsquo;re ready to play provision &amp; deploy in the Outscale Cloud Platform using Ansible.
+                  <a href="https://delaballe.github.io/fcu-ansible-examples/page/install/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+
+            </article>
+          
+            <article class="post-preview">
               <a href="https://delaballe.github.io/fcu-ansible-examples/page/about/">
                 <h2 class="post-title">About me</h2>
-    
+
                 
                   <h3 class="post-subtitle">
                     Why you&#39;d want to go on a date with me
                   </h3>
                 
               </a>
-    
+
               <p class="post-meta">
                 Posted on January 1, 0001
               </p>
@@ -161,9 +184,9 @@
 
                 
               </div>
-    
+
               
-    
+
             </article>
           
         </div>
