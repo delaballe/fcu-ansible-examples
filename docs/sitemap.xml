@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://delaballe.github.io/fcu-ansible-examples/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://delaballe.github.io/fcu-ansible-examples/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://delaballe.github.io/fcu-ansible-examples/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

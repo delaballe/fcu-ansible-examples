@@ -1,0 +1,4 @@
+baseURL = "https://delaballe.github.io/fcu-ansible-examples/"
+languageCode = "en-us"
+title = "fcu-ansible Examples"
+theme = "beautifulhugo"
