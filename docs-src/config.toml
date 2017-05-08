@@ -1,7 +1,7 @@
 # @Author: cyril.gratecos.ext
 # @Date:   2017-05-08T22:16:31+02:00
 # @Last modified by:   cyril.gratecos.ext
-# @Last modified time: 2017-05-08T23:30:44+02:00
+# @Last modified time: 2017-05-09T00:04:40+02:00
 
 
 
@@ -18,7 +18,7 @@ pygmentCodeFences = true
 
 [Params]
   subtitle = "Provision & Deploy with Ansible on the Outscale® Cloud Platform"
-  logo = "img/avatar-icon.png"
+  logo = "img/outscale+ansible.png"
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
@@ -55,10 +55,6 @@ pygmentCodeFences = true
   #bandcamp = "username"
   #itchio = "username"
 
-[[menu.main]]
-    name = "Home"
-    url = ""
-    weight = 1
 
 [[menu.main]]
     name = "Install"

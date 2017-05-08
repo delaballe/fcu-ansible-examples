@@ -1,7 +1,6 @@
 ---
 title: Install
-subtitle: Install fcu-ansible
-date: 2017-05-09
+subtitle: false
 tags: false
 ---
 
@@ -30,4 +29,4 @@ aws_secret_access_key =  <YOUR OUTSCALE API ACCESS KEY>
 EOF
 ```
 
-And voilà !!! you're ready to play provision & deploy in the Outscale Cloud Platform using Ansible.
+You're now ready to provision & deploy with Ansible on the Outscale Cloud Platform using Ansible.

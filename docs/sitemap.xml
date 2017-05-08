@@ -2,11 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://delaballe.github.io/fcu-ansible-examples/page/install/</loc>
-    <lastmod>2017-05-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://delaballe.github.io/fcu-ansible-examples/post/2017-03-20-photoswipe-gallery-sample/</loc>
     <lastmod>2017-03-20T00:00:00+00:00</lastmod>
   </url>
@@ -63,7 +58,7 @@
   
   <url>
     <loc>https://delaballe.github.io/fcu-ansible-examples/</loc>
-    <lastmod>2017-05-09T00:00:00+00:00</lastmod>
+    <lastmod>2017-03-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -94,6 +89,10 @@
   </url>
   
   <url>
+    <loc>https://delaballe.github.io/fcu-ansible-examples/page/install/</loc>
+  </url>
+  
+  <url>
     <loc>https://delaballe.github.io/fcu-ansible-examples/tags/markdown/</loc>
     <lastmod>2015-02-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -107,7 +106,6 @@
   
   <url>
     <loc>https://delaballe.github.io/fcu-ansible-examples/page/</loc>
-    <lastmod>2017-05-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
