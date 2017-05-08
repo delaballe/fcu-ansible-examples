@@ -5,9 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Categories</title>
-  <meta property="og:title" content="Categories" />
-  <meta name="twitter:title" content="Categories" />
+  <title>Big Image Sample</title>
+  <meta property="og:title" content="Big Image Sample" />
+  <meta name="twitter:title" content="Big Image Sample" />
+  <meta name="description" content="Using Multiple Images">
+  <meta property="og:description" content="Using Multiple Images">
+  <meta name="twitter:description" content="Using Multiple Images">
   <meta name="author" content="Some Person"/>
   <link href='https://username.github.io/img/favicon.ico' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="https://username.github.io/img/avatar-icon.png" />
@@ -15,12 +18,12 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@username" />
   <meta name="twitter:creator" content="@username" />
-  <meta property="og:url" content="https://username.github.io/categories/" />
+  <meta property="og:url" content="https://username.github.io/post/2017-03-07-bigimg-sample/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Beautiful Hugo" />
 
   <meta name="generator" content="Hugo 0.20.7" />
-  <link rel="canonical" href="https://username.github.io/categories/" />
+  <link rel="canonical" href="https://username.github.io/post/2017-03-07-bigimg-sample/" />
   <link rel="alternate" href="https://username.github.io/index.xml" type="application/rss+xml" title="Beautiful Hugo">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -116,17 +119,57 @@
 
 
   
+    <div id="header-big-imgs" data-num-img=3 data-img-src-1="https://username.github.io/img/triangle.jpg" data-img-desc-1="Triangle"data-img-src-2="https://username.github.io/img/sphere.jpg" data-img-desc-2="Sphere"data-img-src-3="https://username.github.io/img/hexagon.jpg" data-img-desc-3="Hexagon"></div>
+  
 
-  <header class="header-section ">
+  <header class="header-section has-img">
+    
+      <div class="intro-header big-img">
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+              <div class="post-heading">
+                <h1>Big Image Sample</h1>
+                  
+                    
+                      <h2 class="post-subheading">Using Multiple Images</h2>
+                    
+                  
+                  
+                    <span class="post-meta">
+  Posted on March 7, 2017
+  
+</span>
+
+
+                  
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="img-desc" style="display: inline;"></span>
+      </div>
     
     <div class="intro-header no-img">
       
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="page-heading">
-              <h1>Categories</h1>
+            <div class="post-heading">
+              <h1>Big Image Sample</h1>
                 
+                  
+                    <h2 class="post-subheading">Using Multiple Images</h2>
+                  
+                
+                
+                  <span class="post-meta">
+  Posted on March 7, 2017
+  
+</span>
+
+
                 
             </div>
           </div>
@@ -137,14 +180,64 @@
 
 
     
-  
-  <div class="container" role="main">
-    <article class="post-preview">
-      <div class="list-group col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>The image banners at the top of the page are refered to as &ldquo;bigimg&rdquo; in this theme. They are optional, and one more more can be specified. If more than one is specified, the images rotate every 10 seconds. In the front matter, bigimgs are specified using an array of hashes.</p>
+
+<p></p>
+
+<p>A single bigimg can be specified in the front matter by the following YAML:</p>
+
+<pre><code>bigimg: [{src: &quot;/img/triangle.jpg&quot;, desc: &quot;Triangle&quot;}]
+</code></pre>
+
+<p>Multiple bigimgs can be specified in the front matter by the following YAML:</p>
+
+<pre><code>bigimg: [{src: &quot;/img/triangle.jpg&quot;, desc: &quot;Triangle&quot;}, 
+         {src: &quot;/img/sphere.jpg&quot;, desc: &quot;Sphere&quot;}, 
+         {src: &quot;/img/hexagon.jpg&quot;, desc: &quot;Hexagon&quot;}]
+</code></pre>
+
+<p>Also note that the description field is optional, and images could instead be specified by:</p>
+
+<pre><code>bigimg: [{src: &quot;/img/triangle.jpg&quot;}, 
+         {src: &quot;/img/sphere.jpg&quot;}, 
+         {src: &quot;/img/hexagon.jpg&quot;}]
+</code></pre>
+
+<p>The above YAML array of hashes were written in &ldquo;flow&rdquo; style. However when generating a new page or post with <code>hugo new post/mypost.md</code>, hugo may interpret the archetype for bigimg in the default YAML style. Defining multiple bigimg&rsquo;s complete with descriptions in this style would be specified by:</p>
+
+<pre><code>bigimg: 
+- {src: &quot;/img/triangle.jpg&quot;, desc: &quot;Triangle&quot;}
+- {src: &quot;/img/sphere.jpg&quot;, desc: &quot;Sphere&quot;}
+- {src: &quot;/img/hexagon.jpg&quot;, desc: &quot;Hexagon&quot;}
+</code></pre>
+
+<p>Additional information can be found <a href="https://rhnh.net/2011/01/31/yaml-tutorial/">in this YAML tutorial</a>.</p>
+      </article>
+
+      <ul class="pager blog-pager">
+        
+          <li class="previous">
+            <a href="https://username.github.io/post/2017-03-05-math-sample/" data-toggle="tooltip" data-placement="top" title="Math Sample">&larr; Previous Post</a>
+          </li>
+        
+        
+          <li class="next">
+            <a href="https://username.github.io/post/2017-03-20-photoswipe-gallery-sample/" data-toggle="tooltip" data-placement="top" title="Photoswipe Gallery Sample">Next Post &rarr;</a>
+          </li>
+        
+      </ul>
+
       
-      </div>
-    </article>
+        
+      
+
+    </div>
   </div>
+</div>
 
     <footer>
   <div class="container">
